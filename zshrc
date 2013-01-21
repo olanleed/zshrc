@@ -124,16 +124,3 @@ unsetopt promptcr
 zstyle ':completion:*:default' menu select=1
 #PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 [ -s ${HOME}/.rvm/scripts/rvm ] && source ${HOME}/.rvm/scripts/rvm
-export PATH=/usr/gcc-4.7.1/bin:$PATH
-alias gcc='gcc-4.7'
-alias g++='g++-4.7 -std=c++11'
-alias c++='c++-4.7 -std=c++11'
-#export PATH=/usr/local/Cellar/wget/1.14/bin:$PATH
-alias wget='wget'
-export PATH=/usr/bin:$PATH
-alias gcv='g++ -I/usr/local/Cellar/opencv/2.4.2/include/opencv -L. -L/usr/local/Cellar/opencv/2.4.2/lib -lcv -lcvaux -lcxcore -lhighgui'
-alias platex='/usr/local/teTex/bin/platex'
-alias dvipdfmx='/usr/local/teTex/bin/dvipdfmx'
-alias pdfconv='sh ~/Dropbox/zsh/pdfconv.sh'
-alias ruby='ruby-1.9.3-p286'
-alias gnuplot='/usr/local/Cellar/gnuplot/4.6.1/bin/gnuplot'
