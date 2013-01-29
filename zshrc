@@ -93,11 +93,6 @@ alias la='ls -a'
 alias ll='ls -l'
 alias lla='ls -al'
 
-alias javac="/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/bin/javac -J-Dfile.encoding=UTF-8"
-alias java="/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/bin/java -Dfile.encoding=UTF-8"
-
-alias ccgl="cc -framework GLUT -framework OpenGL"
-
 #w3mでALC検索
 function alc() {
   if [ $# != 0 ]; then
