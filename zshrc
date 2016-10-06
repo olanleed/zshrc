@@ -120,6 +120,9 @@ zstyle ':completion:*:default' menu select=1
 #PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 [ -s ${HOME}/.rvm/scripts/rvm ] && source ${HOME}/.rvm/scripts/rvm
 
+# VCSの情報を取得するzshの便利関数 vcs_infoを使う
+autoload -Uz vcs_info
+
 # 表示フォーマットの指定
 # %b ブランチ情報
 # %a アクション名(mergeなど)
