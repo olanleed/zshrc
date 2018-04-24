@@ -11,7 +11,7 @@ colors
 
 PROMPT="
  %{${fg[yellow]}%}%~%{${reset_color}%} 
-[%n]$ "
+[%n@${HOST}]$ "
 
 PROMPT2='[%n]> ' 
 
